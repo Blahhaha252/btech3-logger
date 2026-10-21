@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "btech-logger"
+version = "1.0.0"
+description = "A lightweight Python logger with configurable levels and exception handling"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "blahhaha253"}
+]
+keywords = ["logging", "logger", "traceback", "exceptions"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Logging"
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
