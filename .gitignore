@@ -7,7 +7,6 @@ venv/
 .venv/
 
 build/
-dist/
 
 logs/
 *.log
